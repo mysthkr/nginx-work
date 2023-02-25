@@ -1,0 +1,26 @@
+p[api]: Build succeeded
+2023-02-25T18:40:01.781236+00:00 heroku[web.1]: Starting process with command `bin/start-nginx bundle exec unicorn -c config/unicorn.rb`
+2023-02-25T18:40:02.954160+00:00 app[web.1]: bash: bin/start-nginx: No such file or directory
+2023-02-25T18:40:03.146090+00:00 heroku[web.1]: Process exited with status 127
+2023-02-25T18:40:03.239757+00:00 heroku[web.1]: State changed from starting to crashed
+2023-02-25T18:40:03.242845+00:00 heroku[web.1]: State changed from crashed to starting
+2023-02-25T18:40:08.790501+00:00 heroku[web.1]: Starting process with command `bin/start-nginx bundle exec unicorn -c config/unicorn.rb`
+2023-02-25T18:40:09.557905+00:00 app[web.1]: bash: bin/start-nginx: No such file or directory
+2023-02-25T18:40:09.696535+00:00 heroku[web.1]: Process exited with status 127
+2023-02-25T18:40:09.743710+00:00 heroku[web.1]: State changed from starting to crashed
+2023-02-25T18:43:40.787982+00:00 app[api]: Starting process with command `rails db:migrate` by user mysthkr4036@gmail.com
+2023-02-25T18:43:46.903257+00:00 heroku[run.9507]: State changed from starting to up
+2023-02-25T18:43:46.983906+00:00 heroku[run.9507]: Awaiting client
+2023-02-25T18:43:46.999570+00:00 heroku[run.9507]: Starting process with command `rails db:migrate`
+2023-02-25T18:43:52.829082+00:00 heroku[run.9507]: Process exited with status 0
+2023-02-25T18:43:52.911482+00:00 heroku[run.9507]: State changed from up to complete
+2023-02-25T18:46:02.909502+00:00 app[api]: Starting process with command `bundle exec rake db:migrate` by user mysthkr4036@gmail.com
+2023-02-25T18:46:10.729801+00:00 heroku[run.5142]: Awaiting client
+2023-02-25T18:46:10.749353+00:00 heroku[run.5142]: Starting process with command `bundle exec rake db:migrate`
+2023-02-25T18:46:10.794405+00:00 heroku[run.5142]: State changed from starting to up
+2023-02-25T18:46:16.515144+00:00 heroku[run.5142]: Process exited with status 0
+2023-02-25T18:46:16.607618+00:00 heroku[run.5142]: State changed from up to complete
+2023-02-25T18:46:57.266905+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=evening-castle-48243.herokuapp.com request_id=0db33c22-fab7-44aa-bda6-8275ac5c2c78 fwd="153.231.1.43" dyno= connect= service= status=503 bytes= protocol=https
+2023-02-25T18:46:58.382994+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=evening-castle-48243.herokuapp.com request_id=7cf1190f-0943-4720-a30f-994866928b5e fwd="153.231.1.43" dyno= connect= service= status=503 bytes= protocol=https
+2023-02-25T18:47:04.152098+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/blogs" host=evening-castle-48243.herokuapp.com request_id=82da4024-1837-490e-a6d1-a3fc676144bf fwd="153.231.1.43" dyno= connect= service= status=503 bytes= protocol=https
+2023-02-25T18:47:04.518105+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=evening-castle-48243.herokuapp.com request_id=69b72e0b-43f0-41d6-9df6-c0acf9f8b23c fwd="153.231.1.43" dyno= connect= service= status=503 bytes= protocol=https
